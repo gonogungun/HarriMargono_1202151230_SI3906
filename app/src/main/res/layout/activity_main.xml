@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.harrimargono_1202151230_modul1.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/namamakanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="63dp"
+            android:layout_marginRight="63dp"
+            android:layout_marginTop="137dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/jumlahmakanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/namamakanan"
+            android:layout_alignStart="@+id/namamakanan"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_eatbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jumlahmakanan"
+            android:layout_marginEnd="69dp"
+            android:layout_marginRight="69dp"
+            android:layout_marginTop="46dp"
+            android:layout_toLeftOf="@+id/btn_abnormal"
+            android:layout_toStartOf="@+id/btn_abnormal"
+            android:text="EATBUS" />
+
+        <Button
+            android:id="@+id/btn_abnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btn_eatbus"
+            android:layout_marginEnd="52dp"
+            android:layout_marginRight="52dp"
+            android:text="ABNORMAL" />
+
+
+        <TextView
+            android:id="@+id/Makan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Makan Malam"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <TextView
+            android:id="@+id/dengan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Makan2"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/btn_abnormal"
+            android:layout_toStartOf="@+id/btn_abnormal"
+            android:text="dengan Milea"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="66dp" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
